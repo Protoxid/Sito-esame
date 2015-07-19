@@ -165,8 +165,6 @@ a {
 	display: table;
 }
 
-/*css scroll to top button*/
-
 a.back-to-top{
 	display: none;
 	width: 80px;
@@ -214,6 +212,8 @@ a:hover.back-to-top{
 /*------------------------------------------------------------- 
                    FOOTER STYLES
 ---------------------------------------------------------------*/
+
+
 
 .social {
 	padding: 0;
@@ -610,6 +610,8 @@ footer p a:hover {
 	background:#eee;
 	margin:30px 0 30px;
 }
+
+
 
 
 

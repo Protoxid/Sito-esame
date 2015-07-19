@@ -1,3 +1,8 @@
+//animazione wow con animate.cc //
+
+$(function() {
+    new WOW().init();
+});
 
 //============ Fixed header ============//
 
