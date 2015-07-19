@@ -20,3 +20,20 @@ $(window).scroll( function() {
     else
         $(".navbar-brand").css("font-size", "42px");
 });
+
+// effetto hover e animazione scroll to top button //
+$(window).scroll(function(){
+    if($(window).scrollTop()>600){
+        $("a.back-to-top").fadeIn("slow");
+    }else{
+        $("a.back-to-top").fadeOut("slow");
+    }
+})
+
+$("a.back-to-top").click(function(){
+    $("body").animate({
+        scrollTop:0
+    },"slow");
+
+    return false;
+})

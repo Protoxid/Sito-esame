@@ -165,6 +165,25 @@ a {
 	display: table;
 }
 
+/*css scroll to top button*/
+
+a.back-to-top{
+	display: none;
+	width: 80px;
+	height: 80px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background:url("arrow.png") no-repeat center 55%;
+	text-indent: -9999px;
+	border-radius: 30px;
+
+}
+
+a:hover.back-to-top{
+	background-color: #f8bc3b;
+}
+
 
 
 
