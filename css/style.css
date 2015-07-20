@@ -1,3 +1,4 @@
+
 /*------------------------------------------------------------- 
                     GLOBAL STYLES
 ---------------------------------------------------------------*/
@@ -25,6 +26,74 @@ h1,h2,h3,h4,h5,h6 {
 a {
 	color: #27ae60;
 }
+
+.no-padding {
+	padding: 0 !important;
+}
+
+.space10 {
+	margin-bottom: 10px;
+}
+
+.space15 {
+	margin-bottom: 15px;
+}
+
+.space20 {
+	margin-bottom: 20px;
+}
+
+.space25 {
+	margin-bottom: 25px;
+}
+
+.space30 {
+	margin-bottom: 30px;
+}
+
+.space35 {
+	margin-bottom: 35px;
+}
+
+.space40 {
+	margin-bottom: 40px;
+}
+
+.space50 {
+	margin-bottom: 50px;
+}
+
+.space60 {
+	margin-bottom: 60px;
+}
+
+.space70 {
+	margin-bottom: 70px;
+}
+
+.space80 {
+	margin-bottom: 80px;
+}
+
+.space90 {
+	margin-bottom: 90px;
+}
+
+.space100 {
+	margin-bottom: 100px;
+}
+
+.cover {
+
+	position: absolute;
+	right: 0px;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 0;
+}
+
 
 
 
